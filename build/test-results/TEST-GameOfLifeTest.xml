@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="GameOfLifeTest" tests="59" failures="0" errors="0" timestamp="2013-10-26T04:16:07" hostname="Veeru-PC" time="0.07">
+  <properties/>
+  <testcase name="testLiveNeighborCountForLiveCellAtBottomLeftEdgeWithZeroNeighborsAndOtherCellsAlive" classname="GameOfLifeTest" time="0.009"/>
+  <testcase name="testGenerateNextPatternForToadPattern" classname="GameOfLifeTest" time="0.012"/>
+  <testcase name="testLiveCellWithFourNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testDeadCellWithFourNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGenerateNextPatternForBoatPattern" classname="GameOfLifeTest" time="0.008"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtTopLeftEdgeWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtTopRightEdgeWithThreeNeighbors" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterOnLastRowWithFiveNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtTopRightEdgeWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnLastColumnWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtBottomLeftEdgeWithThreeNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtTopLeftEdgeWithTwoNeighbors" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testDeadCellWithOneNeighborIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnFirstColumnWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testGenerateNextPatternBeaconPattern" classname="GameOfLifeTest" time="0.006"/>
+  <testcase name="testGenerateNextPatternWithDeadGrid" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testGenerateNextPatternForLoafPattern" classname="GameOfLifeTest" time="0.002"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnFirstRowWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterWithFourNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveCellWithThreeNeighborsIsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveCellWithTwoNeighborsIsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGeneratePatternThatWillDieInOneGeneration" classname="GameOfLifeTest" time="0.002"/>
+  <testcase name="testLiveCellWithEightNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testDeadCellWithTwoNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGeneratePatternThatWillReachBoundaryInOneGeneration" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterOnFirstRowWithFiveNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnFirstColumnWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtTopRightEdgeWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnLastColumnWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testDeadCellWithThreeNeighborsIsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnFirstRowWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGenerateNextPatternForBlinkerPattern" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterWithThreeNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGenerateNextPatternForBlockPattern" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testLiveCellWithOneNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testDeadCellWithEightNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterWithEightNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterWithOneNeighbor" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnLastRowWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGeneratePatternThatWillDieInTwoGenerations" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterOnFirstColumnWithFiveNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtBottomRightEdgeWithZeroNeighborsAndOtherCellsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterOnLastColumnWithFiveNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testCanary" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGenerateNextPatternForGliderPattern" classname="GameOfLifeTest" time="0.001"/>
+  <testcase name="testLiveNeighborCountForCellAtBottomRightEdgeWithThreeNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveCellWithZeroNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testDeadCellWithZeroNeighborsIsDead" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGenerateNextPatternForBlinkerPatternN" classname="GameOfLifeTest" time="0.002"/>
+  <testcase name="testLiveNeighborCountForCellAtCenterWithEightNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtBottomRightEdgeWithOneNeighbor" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtBottomLeftEdgeWithTwoNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForCellAtTopLeftEdgeWithThreeNeighbors" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testNeighbourCountShouldBeZeroWithoutNeighbours" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testLiveNeighborCountForLiveCellAtCenterOnLastRowWithOneNeighborAndOtherCellsAlive" classname="GameOfLifeTest" time="0.0"/>
+  <testcase name="testGenerateNextPatternForBeehivePattern" classname="GameOfLifeTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

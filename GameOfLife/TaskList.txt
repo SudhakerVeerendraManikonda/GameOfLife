@@ -1,0 +1,11 @@
+Canary test - done
+test dead cell with three neighbors is alive - done
+test dead cell with zero neighbors is dead - done
+test dead cell with four neighbors is dead - done
+test live cell with two neighbors is alive - done
+test live cell with three neighbors is alive - done
+test live cell with one neighbors is dead - done
+test live cell with four neighbors is dead - done
+test neighbour count should be zero without neighbors-done
+test live neighbor count for first cell - done 
+test live neighbor count for cell at center - done

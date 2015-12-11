@@ -1,0 +1,35 @@
+apply plugin: 'java'
+
+apply from: 'https://github.com/valkolovos/gradle_cobertura/raw/master/repo/gradle_cobertura/gradle_cobertura/1.0/coberturainit.gradle'
+
+apply from: 'https://repository-javafx-gradle-plugin.forge.cloudbees.com/release/javafx.plugin'
+
+sourceCompatibility = 1.7
+test.scanForTestClasses = false
+
+sourceSets.main.java.srcDirs = ['GameOfLife/src']
+sourceSets.test.java.srcDirs = ['GameOfLife/test']
+
+dependencies {
+  testCompile group: 'junit', name: 'junit', version: "4.+"
+}
+
+repositories {
+  mavenCentral()
+}
+
+task (runui, dependsOn: ['classes'], type: JavaExec) {
+  
+  main = 'assign1.gui.GameOfLifeGUI'
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+cobertura {
+  coverageSourceDirs = sourceSets.main.java.srcDirs
+}
+
+test {
+  jvmArgs '-XX:-UseSplitVerifier'
+}
+
+defaultTasks 'clean','cobertura', 'runui'
